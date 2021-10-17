@@ -3,7 +3,7 @@
 ## 1.获取SSH
 ```
 apt install openssh -y
-echo "password\npassword" | passwd
+echo -e "password\npassword" | passwd
 ```
 ## 2.备份
 ```
