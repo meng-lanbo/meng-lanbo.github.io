@@ -1,6 +1,6 @@
 # meng-lanbo.github.io
 [toc]
-## 1.获取SSH权限
+## 1.获取SSH
 ```
 apt install openssh -y
 echo "password\npassword" | passwd
