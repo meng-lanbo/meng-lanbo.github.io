@@ -31,3 +31,12 @@ gantt
     联调测试 :c1, after b1, 5d
     上线 :milestone, m1, 2026-10-01, 0d
 ```
+
+
+```mermaid
+flowchart TD
+    A[开始] --> B{条件判断}
+    B -- 是 --> C[执行操作]
+    B -- 否 --> D[结束]
+    C --> D
+```
